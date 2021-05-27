@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding-left: 1rem;
+}
+
+.list li+li {
+    margin-top: 1rem;
+}
